@@ -2,7 +2,17 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 <persistence-unit name="MovieScocialNetworking" transaction-type="RESOURCE_LOCAL">
 <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-<class>edu.neu.cs5200.hotel.domain.User</class>
+<class>edu.neu.cs5200.hotel.domain.Admin</class>
+<class>edu.neu.cs5200.hotel.domain.Amenity</class>
+<class>edu.neu.cs5200.hotel.domain.Customer</class>
+<class>edu.neu.cs5200.hotel.domain.Facility</class>
+<class>edu.neu.cs5200.hotel.domain.Hotel</class>
+<class>edu.neu.cs5200.hotel.domain.HotelUser</class>
+<class>edu.neu.cs5200.hotel.domain.Orderdate</class>
+<class>edu.neu.cs5200.hotel.domain.Order</class>
+<class>edu.neu.cs5200.hotel.domain.Roomtype</class>
+<class>edu.neu.cs5200.hotel.domain.Service</class>
+<class>edu.neu.cs5200.hotel.domain.Surrounding</class>
 <properties>
 <property name="eclipselink.jdbc.password" value=""/>
 <property name="eclipselink.jdbc.user" value="root"/>
