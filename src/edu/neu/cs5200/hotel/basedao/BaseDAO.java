@@ -13,7 +13,7 @@ public class BaseDAO<T> {
 	public EntityManager em = factory.createEntityManager();
 	
 	public T create(T object) {
-		em.getTransaction().begin();;
+		em.getTransaction().begin();
 		em.persist(object);
 		em.flush();
 		em.getTransaction().commit();

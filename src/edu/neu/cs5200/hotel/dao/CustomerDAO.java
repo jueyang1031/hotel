@@ -12,6 +12,10 @@ public class CustomerDAO {
 		this.baseDAO = new BaseDAO<Customer>();
 	}
 	
+	public void createCustomer(Customer customer) {
+		baseDAO.create(customer);
+	}
+	
 	
 	
 }

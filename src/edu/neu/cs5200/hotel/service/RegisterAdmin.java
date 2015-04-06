@@ -1,5 +1,5 @@
 package edu.neu.cs5200.hotel.service;
 
-public class RegisterUser {
+public class RegisterAdmin {
 
 }
