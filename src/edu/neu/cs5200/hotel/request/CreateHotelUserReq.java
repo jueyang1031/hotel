@@ -3,9 +3,6 @@ package edu.neu.cs5200.hotel.request;
 import java.util.Date;
 import java.util.List;
 
-import javax.persistence.OneToMany;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 
 import edu.neu.cs5200.hotel.domain.Hotel;
 
