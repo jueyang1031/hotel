@@ -10,7 +10,8 @@ public class CreateAdminTest {
 		CreateAdminReq createAdminReq = new CreateAdminReq();
 		createAdminReq.setPassword("lol");
 		createAdminReq.setSponsoraccount("bigguy");
-		createAdminReq.setUsername("bigguy");
+		createAdminReq.setUsername("dddguy");
 		registerAdmin.createAdmin(createAdminReq);
+		
 		}
 }
