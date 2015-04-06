@@ -1,7 +1,6 @@
 package edu.neu.cs5200.hotel.service;
 
 import edu.neu.cs5200.hotel.dao.AdminDAO;
-import edu.neu.cs5200.hotel.dao.CustomerDAO;
 import edu.neu.cs5200.hotel.domain.Admin;
 import edu.neu.cs5200.hotel.request.CreateAdminReq;
 
