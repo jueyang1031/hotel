@@ -9,15 +9,17 @@ public class CreateCustomerTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		RegisterCustomer registerCustomer = new RegisterCustomer();
 		CreateCustomerReq createCustomerReq = new CreateCustomerReq();
-		createCustomerReq.setFirstName("Jue");
-		createCustomerReq.setLastName("Yang");
-		createCustomerReq.setPassword("12334");
+		createCustomerReq.setFirstName("Bob");
+		createCustomerReq.setLastName("Bench");
+		createCustomerReq.setPassword("88769100");
 		createCustomerReq.setRegDate(new Date(System.currentTimeMillis()));
-		createCustomerReq.setTelephone("99888");
-		createCustomerReq.setUsername("jue.yang");
+		createCustomerReq.setTelephone("888776109");
+		createCustomerReq.setUsername("BBB");
+		
+		RegisterCustomer registerCustomer = new RegisterCustomer();
 		registerCustomer.createCustomer(createCustomerReq);
+
 	}
 
 }

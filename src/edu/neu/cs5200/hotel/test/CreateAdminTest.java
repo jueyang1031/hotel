@@ -8,9 +8,9 @@ public class CreateAdminTest {
 		// TODO Auto-generated method stub
 		RegisterAdmin registerAdmin = new RegisterAdmin();
 		CreateAdminReq createAdminReq = new CreateAdminReq();
-		createAdminReq.setPassword("lol");
-		createAdminReq.setSponsoraccount("bigguy");
-		createAdminReq.setUsername("dddguy");
+		createAdminReq.setPassword("19999999");
+		createAdminReq.setSponsoraccount("une");
+		createAdminReq.setUsername("yyangjue");
 		registerAdmin.createAdmin(createAdminReq);
 		
 		}
